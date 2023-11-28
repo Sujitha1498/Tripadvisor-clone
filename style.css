@@ -487,6 +487,7 @@ body{
     .input-sec ul a {
         color: #000;
         font-size: 20px;
+        list-style: none;
     }
 
 }
@@ -543,6 +544,9 @@ body{
     }
 } */
 @media screen and (max-width:767px){
+    .container_image{
+        padding: 0 6%;
+    }
     .navbar__s4 {
         display: block;
     }
@@ -583,5 +587,18 @@ body{
     .trip-card-sec .card {
         flex-basis: 40%;
         position: relative;
+    }
+    .input-sec ul a {
+        color: #000;
+        font-size: 20px;
+        list-style: none;
+    }
+    .input-sec ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        gap: 20px;
+        margin-top: 1em;
     }
 }
